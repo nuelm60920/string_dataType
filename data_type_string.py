@@ -21,6 +21,9 @@ age = 25
 
 print(f"my name is {full_name} and my age is {age}")
 
-[]
+
 first = full_name[:]
 print(first)
+
+name = "emmanuel chukwuokolo"
+print(name.rfind('e'))
