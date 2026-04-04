@@ -91,5 +91,8 @@ num1 = 20
 float(num1)
 str()
 
-price = input('enter price milo:')
+price = float(input('enter price milo:'))
 print(price)
+price += 5
+
+str(price)
