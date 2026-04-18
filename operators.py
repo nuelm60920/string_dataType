@@ -1,11 +1,11 @@
 ''' +, /, -, *, =, //, %, ** '''
 
-print(3 // 2)
+print(3 // 2) #floor operator
 import math
 print(math.floor(3.5))
 
 print(5%2) # modulus operator
-4 ** 5
+4 ** 5 # pow operator
 print(4*4 *4*4*4)
 #<, <=, >, >=, ==,!=, & 
 print(5 < 2)
@@ -16,7 +16,7 @@ tax = 20
 
 print(num >= num2)
 
-print(5 == 5)
+print(5 == 5) # equal values
 
 
 num3 = 10
@@ -34,8 +34,8 @@ a = 5
 
 print(2 != 4) #not equal to
 
-print(2 < 5 and 3 <=3)
-print(3 <= 2 or 3 <=5)
+print(2 < 5 and 3 <=3) # both must be true
+print(3 <= 2 or 3 <=5) #  one of them should be true
 
 #+=
 
@@ -61,10 +61,10 @@ if not voter_age:
 a = 5
 
 #a = a + 20
-a +=10
-a -= 5
-a *= 2
-a /= 3
+a +=10 # addition
+a -= 5 #subtraction
+a *= 2 #multiplication
+a /= 3 #division
 print(a)
 print(23 % 3)
 
