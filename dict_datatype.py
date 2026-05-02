@@ -5,6 +5,9 @@ print(my_dict)
 friends = {'John':'080757578588','Mike':83664477848, 'Mary':8949494994}
 print(friends)
 
+phone = my_dict['phone No'][1]
+print('phone number:',phone)
+
 name = my_dict['name']
 print(name)
 key_items = my_dict.keys()
@@ -48,7 +51,7 @@ key_values = list(phones.values())
 print(key_values)
 
 items = list(phones.items())
-print(items)
+print('items: ',items)
 
 
 university = {
@@ -76,6 +79,7 @@ print('teacher' in university)
 print('English Language' in university)
 print('teacher' in university['English Language'])
 
+phone_no = university['Maths']['phone_no']
 d ={'laptop':'mac pro 16'}
 e = dict(laptop ='mac pro 16')
 
@@ -102,3 +106,23 @@ print(d)
 
 no_students = university['Programming']['students']
 print(no_students)
+
+
+n={'name':'nuel','age':20,'height':5.7}
+m={'name':'mary','address':'30 tinubu way','phone':98484874}
+
+print(n|m)
+
+students = { "Alice": 90, "Bob": 95, "Carol": 72, "David": 95, "Eve": 97, 'Daniel':101 }
+best= max(students, key=students.get)
+print(best)
+
+best = students['Alice']
+best_score = students['Alice']
+print('first scores:',best_score)
+for i in students.values():
+    if i > best_score:
+        best_score = i
+print('best score:', best_score)
+
+print(set(('appple','mango','orange')))
