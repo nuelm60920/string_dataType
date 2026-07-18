@@ -17,7 +17,7 @@ print(list(range(10,-1,-2)))
 print(list(range(20,-1,-2)))
 
 
-set_values = {3,True,1, 6,3,False, 0}
+StopAsyncIteration                                    
 print(set_values)
 
 

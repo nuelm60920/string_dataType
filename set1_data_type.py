@@ -39,14 +39,14 @@ studies = items.union(courses) # union creat while new a set while update adds t
 print(items)
 print(studies)
 
-commom_values =items & courses
+commom_values =items & courses # common values
 print(commom_values)
-common = items.intersection(courses)
+common = items.intersection(courses) #common values
 print(common)
 
-diff  = items - courses
+diff  = items - courses # what is not in course
 print(diff)
-diff_2 = items.difference(courses)
+diff_2 = items.difference(courses) ## what is not in course
 print(diff_2)
 
 print("Pen" in items)
